@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" data-testid="test-html">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-testid="test-title">Profile Card — Stage 0</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body data-testid="test-body">
+  <div class="wrap" data-testid="test-wrap">
+    <article class="profile-card" data-testid="test-profile-card" aria-labelledby="card-title">
+      <div class="grid" data-testid="test-grid">
+        <!-- Left rail: avatar + controls -->
+        <aside class="rail" data-testid="test-rail">
+          <figure class="avatar" data-testid="test-figure-avatar">
+            <img
+              class="avatar-img"
+              data-testid="test-user-avatar"
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=720&auto=format&fit=crop"
+              alt="Portrait avatar of the user" />
+            <figcaption class="vh" data-testid="test-figcaption">User avatar</figcaption>
+          </figure>
+
+          <div class="controls" data-testid="test-controls">
+            <label for="avatarUrl" data-testid="test-label-avatar-url">Avatar URL</label>
+            <input id="avatarUrl" name="avatarUrl" type="url" placeholder="https://…" data-testid="test-input-avatar-url" />
+
+            <label for="avatarFile" data-testid="test-label-avatar-file">Upload avatar (PNG/JPG)</label>
+            <input id="avatarFile" name="avatarFile" type="file" accept="image/*" data-testid="test-input-avatar-file" />
+          </div>
+        </aside>
+
+        <!-- Main content -->
+        <main class="main" data-testid="test-main">
+          <header class="card-head" data-testid="test-header">
+            <h2 id="card-title" class="name" data-testid="test-user-name">Segun Oladimeji</h2>
+            <p class="bio" data-testid="test-user-bio">
+              Frontend dev in training. I build clean, accessible UIs with plain HTML/CSS/JS before reaching for frameworks.
+            </p>
+            <div class="meta" data-testid="test-meta">
+              <span aria-live="polite" class="time" data-testid="test-user-time" title="Current epoch time in milliseconds">0</span>
+            </div>
+          </header>
+
+          <nav class="social" aria-label="Social links" data-testid="test-user-social-links">
+            <ul data-testid="test-social-list">
+              <li data-testid="test-social-item-twitter">
+                <a data-testid="test-user-social-twitter" href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Twitter</a>
+              </li>
+              <li data-testid="test-social-item-github">
+                <a data-testid="test-user-social-github" href="https://github.com/TheGreatWizard16" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+              </li>
+              <li data-testid="test-social-item-linkedin">
+                <a data-testid="test-user-social-linkedin" href="https:www.linkedin.com/in/segun-oladimeji" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="lists" data-testid="test-lists">
+            <section class="list-block" aria-labelledby="hobbies-title" data-testid="test-hobbies-section">
+              <h3 id="hobbies-title" data-testid="test-hobbies-title">Hobbies</h3>
+              <ul class="items" data-testid="test-user-hobbies">
+                <li data-testid="test-hobby-1">Sketching UI layouts</li>
+                <li data-testid="test-hobby-2">Figma to code drills</li>
+                <li data-testid="test-hobby-3">Football</li>
+              </ul>
+            </section>
+
+            <section class="list-block" aria-labelledby="dislikes-title" data-testid="test-dislikes-section">
+              <h3 id="dislikes-title" data-testid="test-dislikes-title">Dislikes</h3>
+              <ul class="items" data-testid="test-user-dislikes">
+                <li data-testid="test-dislike-1">Unlabeled buttons</li>
+                <li data-testid="test-dislike-2">Non-focusable controls</li>
+                <li data-testid="test-dislike-3">Layout shift</li>
+              </ul>
+            </section>
+          </div>
+        </main>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
