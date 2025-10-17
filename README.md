@@ -54,3 +54,4 @@ frontend-wizards-profile-card/
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/TheGreatWizard16/frontend-wizards-profile-card.git
+# frontend-wizards-profile-card
