@@ -53,4 +53,4 @@ frontend-wizards-profile-card/
 ## 🧠 How to Run Locally
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/<yourusername>/frontend-wizards-profile-card.git
+   git clone https://github.com/TheGreatWizard16/frontend-wizards-profile-card.git
