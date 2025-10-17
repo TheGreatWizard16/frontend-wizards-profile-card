@@ -1,4 +1,4 @@
-# 🚀 Frontend Wizards — Stage 0 Task: Profile Card
+# 🚀 Frontend Wizards  Stage 0 Task: Profile Card
 
 A fully responsive, semantic, and accessible **Profile Card** built using **plain HTML, CSS, and vanilla JavaScript**.  
 Every visible element includes the required `data-testid` attributes for automated testing.
