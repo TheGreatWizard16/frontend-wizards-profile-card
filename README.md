@@ -6,7 +6,7 @@ Every visible element includes the required `data-testid` attributes for automat
 ---
 
 ## 🔗 Live Demo
-[**Live Site (GitHub Pages )**](https://thegreatwizard16.github.io/frontend-wizards-profile-card/)
+[**Live Site**](https://thegreatwizard16.github.io/frontend-wizards-profile-card/)
 
 ---
 
